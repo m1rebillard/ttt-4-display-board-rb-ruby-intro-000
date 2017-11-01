@@ -152,7 +152,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
-      
+
       # Define the board with values that should create the desired output
       # *** Edit the line below ***
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # This is not correct
